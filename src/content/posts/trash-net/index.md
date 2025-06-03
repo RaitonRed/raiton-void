@@ -90,10 +90,10 @@ Follow me to stay updated!
 
 ---
 
-🌍 Let’s make AI work for the planet.
-
----
-
 ## GitHub Repository
 
 ::github{repo="RaitonRed/TrashNet"}
+
+---
+
+🌍 Let’s make AI work for the planet.
