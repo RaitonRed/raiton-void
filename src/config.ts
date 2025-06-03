@@ -52,9 +52,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Lorem Ipsum",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	avatar: "assets/images/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "Alireza",
+	bio: "I'm RaitonRed — a teenage creator passionate about tech, gaming, AI, and storytelling. I build projects like autonomous drones, design in Minecraft, and share my journey through YouTube and this blog. Whether it's code, content, or chaos, I'm always exploring something new. Welcome to my world — raw, real, and always in progress.",
 	links: [
 		{
 			name: "Twitter",
