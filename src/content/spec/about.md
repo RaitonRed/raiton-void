@@ -1,9 +1,14 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
 
-::github{repo="saicaca/fuwari"}
+Hey, I'm Raiton — a curious mind behind this blog.
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+I'm a teenage content creator, developer, and experimenter who loves exploring everything from Minecraft builds to artificial intelligence. I build, I break, I learn — and I share that journey here.
+
+You'll find all sorts of stuff on this blog: thoughts, code snippets, project updates, personal reflections, tech rants, and maybe even some anime vibes.
+
+I’m passionate about making cool things and telling stories around them. Whether it’s coding a self-flying AI drone or sharing behind-the-scenes from my YouTube videos, I try to keep it real, raw, and a little bit chaotic — just like life.
+
+This blog isn’t just about what I do, it’s about how I think.  
+Welcome to my digital notebook.
+
+– RaitonRed
