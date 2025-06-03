@@ -56,22 +56,27 @@ export const profileConfig: ProfileConfig = {
 	name: "Alireza",
 	bio: "I'm RaitonRed — a teenage creator passionate about tech, gaming, AI, and storytelling. I build projects like autonomous drones, design in Minecraft, and share my journey through YouTube and this blog. Whether it's code, content, or chaos, I'm always exploring something new. Welcome to my world — raw, real, and always in progress.",
 	links: [
-		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
-		},
+		// {
+		// 	name: "Twitter",
+		//	icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+		//	// You will need to install the corresponding icon set if it's not already included
+		//	// `pnpm add @iconify-json/<icon-set-name>`
+		//	url: "https://twitter.com",
+		// },
+		// {
+		//	name: "Steam",
+		//	icon: "fa6-brands:steam",
+		//	url: "https://store.steampowered.com",
+		// },
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/RaitonRed",
+		},
+		{
+			name: "YouTube",
+			icon: "mdi:youtube",
+			url: "https://youtube.com/@ItzRaiton",
 		},
 	],
 };
