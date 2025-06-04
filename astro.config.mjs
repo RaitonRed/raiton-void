@@ -22,7 +22,9 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
 	site: "https://fuwari.vercel.app/",
-	adapter: node(),
+	adapter: node({
+		mode: "standalone",
+	}),
 	base: "/",
 	trailingSlash: "always",
 
