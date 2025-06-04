@@ -1,6 +1,6 @@
 ---
 title: X-RayGuard Revolutionizing Lung Disease Detection with AI
-published: 2025-06-04
+published: 2025-06-05
 description: 'Open-source AI detecting lung diseases from X-rays with 93.5% accuracy. Revolutionizing early diagnosis of COVID-19, Pneumonia, and more.'
 image: './cover.png'
 tags: ['Machine Learning', 'Projects']
