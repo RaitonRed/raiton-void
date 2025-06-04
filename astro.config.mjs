@@ -1,3 +1,4 @@
+import node from "@astrojs/node";
 import sitemap from "@astrojs/sitemap";
 import svelte from "@astrojs/svelte";
 import tailwind from "@astrojs/tailwind";
@@ -18,11 +19,10 @@ import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
-import node from "@astrojs/node";
-
 // https://astro.build/config
 export default defineConfig({
 	site: "https://fuwari.vercel.app/",
+	adapter: node(),
 	base: "/",
 	trailingSlash: "always",
 
@@ -125,12 +125,8 @@ export default defineConfig({
 		},
 	},
 
-	adapter: node({
-		mode: "standalone",
-	}),
-
 	server: {
-		port: Number.parseInt(process.env.PORT) || 4321,
 		host: true,
+		allowedHosts: ["raitonvoid.onrender.com"],
 	},
 });
