@@ -78,6 +78,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "mdi:youtube",
 			url: "https://youtube.com/@ItzRaiton",
 		},
+		{
+			name: "Telegram",
+			icon: "ic:sharp-telegram",
+			url: "https://t.me/theglitchcity",
+		},
 	],
 };
 
