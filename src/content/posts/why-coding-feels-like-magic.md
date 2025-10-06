@@ -1,6 +1,6 @@
 ---
 title: Why Coding Feels Like Magic (Even When It’s Just Logic)
-published: 2025-06-10
+published: 2025-10-06
 description: 'Coding isn’t just lines of syntax — it’s the art of creation through logic. This reflective essay explores why writing code can feel like casting spells, how logic and imagination intertwine, and why understanding the process only deepens the magic.'
 image: ''
 tags: ['coding', 'Programming', 'Philosophy']
