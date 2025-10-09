@@ -16,13 +16,13 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/banner.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/minimal-bannner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
-		credit: {
+		/* credit: {
 			enable: true, // Display the credit text of the banner image
 			text: "空色天絵 - NEO TOKYO NOIR", // Credit text to be displayed
 			url: "https://www.pixiv.net/en/artworks/111024784", // (Optional) URL link to the original artwork or artist's page
-		},
+		}, */
 	},
 	toc: {
 		enable: true, // Display the table of contents on the right side of the post
