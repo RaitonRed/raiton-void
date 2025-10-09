@@ -75,8 +75,8 @@ onMount(async () => {
 	);
 
 	const groupedPostsArray = Object.keys(grouped).map((yearStr) => ({
-		year: Number.parseInt(yearStr),
-		posts: grouped[Number.parseInt(yearStr)],
+		year: Number.parseInt(yearStr, 10),
+		posts: grouped[Number.parseInt(yearStr, 10)],
 	}));
 
 	groupedPostsArray.sort((a, b) => b.year - a.year);
@@ -99,7 +99,7 @@ onMount(async () => {
                     ></div>
                 </div>
                 <div class="w-[70%] md:w-[80%] transition text-left text-50">
-                    {group.posts.length} {i18n(I18nKey.postsCount)}
+                    {group.posts.length} {i18n(group.posts.length === 1 ? I18nKey.postCount : I18nKey.postsCount)}
                 </div>
             </div>
 
